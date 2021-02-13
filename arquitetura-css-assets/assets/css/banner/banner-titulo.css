@@ -1,0 +1,33 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    left: 50%;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
+
+/*color: #fdfdfd para definirmos uma cor branca, mas não tão branca;
+font-size: 5.0625rem para definirmos o tamanho da fonte;
+position: absolute, de modo que a posição do texto seja absoluta na tela;
+left: 50% para termos o alinhamento à esquerda da tela, centralizando o texto;
+text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75) para definirmos a sombra com uma cor preta mais clara;
+top: 50% para definirmos o alinhamento ao topo;
+text-align: center para que o elemento do texto sempre esteja centralizado;
+transform: translate(-50%, -50%) para transladarmos o título, onde o primeiro valor é referente ao eixo X e o segundo ao eixo Y;
+width: 100% de modo que o elemento ocupe 100% da tela;*/
